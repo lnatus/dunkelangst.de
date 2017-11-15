@@ -44,39 +44,67 @@ h3 {
   font-size: 1.2rem;
 }
 
-.db-dagger {
+.da-dagger {
   font-size: 0.8rem;
   vertical-align: top;
 }
 
-/* LAYOUT */
+/* SPACER */
 
-.db-box {
-  width: 100%;
-  padding: 90px;
+.da-space-0 {
+  margin: 0;
 }
 
-.db-box.db-box-secondary {
+.da-space-xs {
+  margin-bottom: 15px;
+}
+
+.da-space-s {
+  margin-bottom: 30px;
+}
+
+.da-space-m {
+  margin-bottom: 60px;
+}
+
+.da-space-l {
+  margin-bottom: 90px;
+}
+
+.da-space-xl {
+  margin-bottom: 180px;
+}
+
+/* LAYOUT */
+
+
+.da-box {
+  width: 100%;
+  padding: 30px 90px 90px 90px;
+  height: 100%;
+}
+
+.da-box.da-box-secondary {
   background: #E5E8F7;
   color: #444;
 }
 
-.db-box.db-box-primary {
+.da-box.da-box-primary {
   background: #4631AD;
   color: #FFF;
 }
 
-.db-brush-container {
+.da-brush-container {
   position: relative;
   width: 250px;
 }
 
-.db-brush-container .db-brush,
-.db-brush-container h2 {
+.da-brush-container .da-brush,
+.da-brush-container h2 {
   position: absolute;
 }
 
-.db-brush-container h2 {
+.da-brush-container h2 {
   position: absolute;
   top: 10px;
   left: 0;
@@ -84,10 +112,36 @@ h3 {
   text-align: center;
 }
 
-.db-dad {
-  width: 180px;
-  height: 180px;
+.da-nav {
+  max-width: 100%;
+  text-align: right;
+  text-transform: uppercase;
+  margin-bottom: 180px;
+  border-bottom: 1px solid #503BB8;
+}
+
+.da-nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.da-nav ul li:last-of-type {
+  margin-right: 0;
+}
+
+.da-nav ul li a,
+.da-nav ul li a:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.da-dad {
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   border: 10px solid #FFF;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+  position: absolute;
+  right: -70px;
+  z-index: 100;
 }
