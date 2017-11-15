@@ -1,0 +1,93 @@
+/*
+  DUNKELANGST.DE
+  © copyright 2017
+  Design, Artwork and Code made with <3 by Lars Natus
+*/
+
+/* GENERAL */
+
+.row.no-gutter {
+  margin-left: 0;
+  margin-right: 0;
+}
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* FONTS */
+
+body {
+  font-family: "Barlow", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+footer {
+  font-size: 0.8rem;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+
+.db-dagger {
+  font-size: 0.8rem;
+  vertical-align: top;
+}
+
+/* LAYOUT */
+
+.db-box {
+  width: 100%;
+  padding: 90px;
+}
+
+.db-box.db-box-secondary {
+  background: #E5E8F7;
+  color: #444;
+}
+
+.db-box.db-box-primary {
+  background: #4631AD;
+  color: #FFF;
+}
+
+.db-brush-container {
+  position: relative;
+  width: 250px;
+}
+
+.db-brush-container .db-brush,
+.db-brush-container h2 {
+  position: absolute;
+}
+
+.db-brush-container h2 {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.db-dad {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 10px solid #FFF;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+}
