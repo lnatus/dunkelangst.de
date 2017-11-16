@@ -24,10 +24,6 @@ body {
   font-size: 1rem;
 }
 
-footer {
-  font-size: 0.8rem;
-}
-
 h1 {
   font-weight: 400;
   font-size: 1.6rem;
@@ -85,6 +81,7 @@ h3 {
 }
 
 .da-box.da-box-secondary {
+  text-align: center;
   background: #E5E8F7;
   color: #444;
 }
@@ -92,6 +89,10 @@ h3 {
 .da-box.da-box-primary {
   background: #4631AD;
   color: #FFF;
+}
+
+.da-logo-primary {
+  margin-bottom: 180px;
 }
 
 .da-brush-container {
@@ -117,6 +118,7 @@ h3 {
   text-align: right;
   text-transform: uppercase;
   margin-bottom: 180px;
+  font-size: 0.8rem;
   border-bottom: 1px solid #503BB8;
 }
 
@@ -145,3 +147,31 @@ h3 {
   right: -70px;
   z-index: 100;
 }
+
+
+/* MEDIA */
+
+@media (max-width: 768px) {
+  nav {
+    display: none;
+  }
+  h1 {
+    font-size: 1.4rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  .da-dad {
+    position: initial;
+    margin-top: 90px;
+  }
+  .da-logo-primary {
+    margin-bottom: 90px;
+  }
+  .da-brush-container {
+    margin-left: -30px;
+  }
+ }
