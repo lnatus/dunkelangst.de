@@ -7,6 +7,19 @@ var DA;
         }
         AppService.prototype.run = function () {
             var _this = this;
+            $("#da-contact-form").submit(function (event) {
+                event.preventDefault();
+                var $form = $(this), url = $form.attr('action');
+                var post = $.post(url, {
+                    name: $('#inputName').val(),
+                    email: $('#inputEmail').val(),
+                    phone: $('#inputPhone').val(),
+                    request: $('#inputRequest').val()
+                });
+                post.done(function (data) {
+                    alert(data);
+                });
+            });
             var $name = $('#inputName');
             var $email = $('#inputEmail');
             var $request = $('#inputRequest');
