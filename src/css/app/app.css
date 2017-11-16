@@ -16,6 +16,15 @@
   padding-left: 0;
 }
 
+.btn-da {
+  background: #4631AD;
+  color: #FFF;
+}
+
+.btn-da:hover {
+  background: #503BB8;
+}
+
 /* FONTS */
 
 body {

@@ -152,8 +152,60 @@
           </div>
         </div>
       </div>
+      <div id="contact" class="da-contact">
+        <div class="row">
+          <div class="col">
+            <div class="da-brush-container da-brush-container-center">
+              <svg height="50" width="250" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+                <image x="0" y="0" height="50" width="250" xlink:href="images/brush-primary.svg" />
+              </svg>
+              <h2>Kontakt</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <form id="da-contact-form" name="da-contact-form" data-forge-name="da-contact-form">
+              <div class="form-group">
+                <label for="inputName">Vorname Nachname *</label>
+                <input data-forge-name="name" type="text" class="form-control" id="inputName" aria-describedby="inputNameHelp" placeholder="Max Muster" >
+                <small id="inputNameHelp" class="form-text text-muted">Bitte trage Sie Ihren Vornamen und Nachnamen ein (Pflichtfeld).</small>
+              </div>
+              <div class="form-group">
+                <label for="inputInfoEmail">Email *</label>
+                <input data-forge-name="email" type="email" class="form-control" id="inputEmail" aria-describedby="inputEmailHelp" placeholder="max@muster.de" >
+                <small id="inputEmailHelp" class="form-text text-muted">Bitte trage Sie Ihre Email ein (Pflichtfeld).</small>
+              </div>
+              <div class="form-group">
+                <label for="inputInfoPhone">Telefon</label>
+                <input data-forge-name="phone" type="text" class="form-control" id="inputPhone" aria-describedby="inputPhoneHelp" placeholder="030 - 123456" >
+                <small id="inputPhoneHelp" class="form-text text-muted">Bitte trage Sie Ihre Telefonnummer ein (Optional).</small>
+              </div>
+              <div class="form-group">
+                  <label for="inputRequest">Anfrage *</label>
+                  <textarea data-forge-name="request"  class="form-control" id="inputRequest" aria-describedby="inputRequestHelp" placeholder="Anfrage..."></textarea>
+                  <small id="inputRequestHelp" class="form-text text-muted">Bitte trage Sie Ihre Anfrage ein (Pflichtfeld).</small>
+                </div>
+              <input type="submit" id="btnSend" class="btn btn-da" disabled="disabled" value="Absenden">
+            </form>
+          </div>
+          <div class="col">
+            <p>
+              Alle Anfragen (auch Preisanfragen zu Kunstwerken) können über nebenstehendes Formular oder via Email erfolgen.
+              Bitte hinterlegen Sie eine gültige Emailadresse oder optional Ihre Telefonnummer, damit wir Sie schnellsmöglich kontaktieren können.
+              Wir freuen uns auf Ihre Nachricht.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
     </div>
    </div>
+   <script type="text/javascript">
+    $(document).ready(function(){
+      var app = new DA.AppService();
+      app.run();
+    })
+   </script>
   </body>
 </html>
