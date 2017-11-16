@@ -1,0 +1,6 @@
+Files
+	sitemap.xml
+	favicon.ico
+	images/favicons/favicon-16x16.png
+	images/favicons/favicon-32x32.png
+	images/favicons/favicon-64x64.png
