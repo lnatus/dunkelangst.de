@@ -10,6 +10,8 @@
   margin-left: 0;
   margin-right: 0;
 }
+
+.row.no-gutter [class='col'],
 .row.no-gutter [class*='col-']:not(:first-child),
 .row.no-gutter [class*='col-']:not(:last-child) {
   padding-right: 0;
@@ -23,6 +25,10 @@
 
 .btn-da:hover {
   background: #503BB8;
+}
+
+.da-branding {
+  color: #4631AD;
 }
 
 /* FONTS */
@@ -103,6 +109,10 @@ h3 {
   margin-bottom: 180px;
 }
 
+.da-logo-secondary {
+  height: 60px;
+}
+
 .da-brush-container {
   position: relative;
   width: 250px;
@@ -167,6 +177,15 @@ h3 {
   border: 10px solid #FFF;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
   margin-bottom: 30px;
+}
+
+.da-ribbon {
+  padding: 30px;
+  background: #4631AD;
+}
+
+.da-ribbon .da-nav {
+  margin-bottom: 0;
 }
 
 footer {
