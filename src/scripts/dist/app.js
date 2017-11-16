@@ -17,7 +17,7 @@ var DA;
                     request: $('#inputRequest').val()
                 });
                 post.done(function (data) {
-                    alert(data);
+                    console.log(data);
                 });
             });
             var $name = $('#inputName');

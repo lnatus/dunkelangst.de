@@ -19,7 +19,7 @@ namespace DA {
         });
 
         post.done((data) => {
-          alert(data);
+          console.log(data);
         });
       });
 
