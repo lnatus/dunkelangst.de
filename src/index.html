@@ -16,18 +16,19 @@
     <meta property="og:url" content="https://dunkelangst.de">
     <meta property="og:locale" content="de_DE">
     <meta property="og:type" content="website">
-    <meta property="og:description" content="Helmut Peter Natus - Was bleibt ist Kunst - In stillem Gedenken an Helmut Peter Natus">
+    <meta property="og:description" content="Helmut Natus - Was bleibt, ist Kunst - In stillem Gedenken an Helmut Peter Natus">
     <link href="https://fonts.googleapis.com/css?family=Barlow:100,300,400" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="images/favicons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
     <link rel="stylesheet" href="css/vendor/bootstrap/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/app/app.css" type="text/css">
+    <script src="https://use.fontawesome.com/750cf2a3ef.js"></script>
     <script type="text/javascript" src="scripts/vendor/jquery/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="scripts/dist/app.js" ></script>
   </head>
   <body>
-   <div class="da">
+   <div id="da" class="da">
      <div class="row no-gutter">
       <div class="col-md-4">
         <div class="da-box da-box-secondary">
@@ -191,8 +192,8 @@
           </div>
           <div class="col">
             <p>
-              Alle Anfragen (auch Preisanfragen zu Kunstwerken) können über nebenstehendes Formular oder via Email erfolgen.
-              Bitte hinterlegen Sie eine gültige Emailadresse oder optional Ihre Telefonnummer, damit wir Sie schnellsmöglich kontaktieren können.
+              Alle Anfragen können über nebenstehendes Formular oder via Email erfolgen.
+              Bitte hinterlegen Sie eine gültige Emailadresse oder optional Ihre Telefonnummer, damit wir Sie schnellstmöglich kontaktieren können.
               Wir freuen uns auf Ihre Nachricht.
             </p>
           </div>
@@ -200,11 +201,20 @@
       </div>
      </div>
     </div>
-    <div class="row no-gutter">
-      <footer>
-
-      </footer>
-    </div>
+    <footer>
+      <div class="row no-gutter">
+        <div class="col">
+          <a href="#">
+            <img class="da-logo-secondary" src="images/logo-secondary.png" alt="dunkelangst.de">
+          </a>
+        </div>
+        <div class="col">
+          <p>Design, Artwork and Code made with <i class="fa fa-heart"></i> by Lars Natus</p>
+          <p>&copy; dunkelangst.de Copyright 2017</p>
+          <p><a href="impressum.html">Impressum</a></p>
+        </div>
+      </div>
+    </footer>
     <script type="text/javascript">
     $(document).ready(function(){
       var app = new DA.AppService();
