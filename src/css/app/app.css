@@ -203,6 +203,8 @@ footer img {
 
 footer a {
   color: #FFF;
+  margin-bottom: 30px;
+  display: inline-block;
 }
 
 footer a:hover {
