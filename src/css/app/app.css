@@ -124,6 +124,11 @@ h3 {
   margin: 60px 0 60px -125px;
 }
 
+.da-brush-container.da-brush-container-center-small {
+  left: 50%;
+  margin:10px 0 10px -125px;
+}
+
 .da-brush-container .da-brush,
 .da-brush-container h2 {
   position: absolute;
@@ -172,8 +177,7 @@ h3 {
   z-index: 100;
 }
 
-.da-gallery img,
-.da-life img {
+.da-shadow-box {
   border: 10px solid #FFF;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
   margin-bottom: 30px;
