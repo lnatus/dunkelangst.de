@@ -55,9 +55,20 @@ h3 {
   font-size: 1.2rem;
 }
 
+h4 {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
 .da-dagger {
   font-size: 0.8rem;
   vertical-align: top;
+}
+
+.da-meta {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #DDD;
 }
 
 /* SPACER */
@@ -181,6 +192,14 @@ h3 {
   border: 10px solid #FFF;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
   margin-bottom: 30px;
+}
+
+.da-shadow-box h4 {
+  margin-top: 15px;
+}
+
+.da-shadow-box p {
+  margin: 0;
 }
 
 .da-ribbon {
